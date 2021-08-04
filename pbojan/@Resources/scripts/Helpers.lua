@@ -26,13 +26,12 @@ function Round(num)
     if num < 1 then
         idp = 6
     end
-        
-	local mult = 10 ^ (idp or 0)
-	if num >= 0 then
-		return math.floor(num * mult + 0.5) / mult
-	else
-		return math.ceil(num * mult - 0.5) / mult
-	end
+	
+	if num < 0.00001 then
+        idp = 8
+    end
+	
+	return string.format('%.' .. idp .. 'f', num)
 end
 
 function RoundPercent(num)
