@@ -18,7 +18,7 @@ Windows Desklet, Widget, Gadget, Rainmeter Skin that displays the current price 
 
 **To use the Desklet first you need to install it, steps are below:**
 
-1. Download the latest release version file **`.rmskin`** from https://github.com/pbojan/cryptocoins-desklet-windows/releases
+1. Download the latest release version file **`.rmskin`** from https://github.com/ilius/rainmeter-desklets/releases
 2. Double-click the **`.rmskin`** file and then click Install.
 
 *NOTE: For more about installing skins check out: https://docs.rainmeter.net/manual/installing-skins/*
@@ -29,7 +29,7 @@ Windows Desklet, Widget, Gadget, Rainmeter Skin that displays the current price 
 
 1. Make sure you have Rainmeter running
 2. Right-click on the Rainmeter icon in the tray and select **`Manage`**
-3. Find the file **`pbojan -> CryptoCoins -> Bitcoin -> Bitcoin.ini`**
+3. Find the file **`ilius -> CryptoCoins -> Bitcoin -> Bitcoin.ini`**
 4. Select it and click **`Load`** in the top-right corner and this will load the desklet on your desktop
 5. Right-click the Desklet and select **`Edit Skin`**
 6. Replace **`ApiKey=YOUR_API_KEY`** with your CoinMarketCap API key
@@ -42,9 +42,9 @@ Windows Desklet, Widget, Gadget, Rainmeter Skin that displays the current price 
 
 **To add new crypto-coin as a Desklet, please follow the steps below:**
 
-1. Open the Rainmeter skins directory, usually **`C:\Users\#YourName#\Documents\Rainmeter\Skins\pbojan\CryptoCoins`**
+1. Open the Rainmeter skins directory, usually **`C:\Users\#YourName#\Documents\Rainmeter\Skins\ilius\CryptoCoins`**
 2. Copy the **`Bitcoin`** folder and name it the as crypto-coin you want to add e.g. **`Dash`**
-3. Go into the folder and rename the **`Bitcoin.ini`** file to **`Dash.ini`**, now you should have **`C:\Users\#YourName#\Documents\Rainmeter\Skins\pbojan\CryptoCoins\Dash\Dash.ini`**
+3. Go into the folder and rename the **`Bitcoin.ini`** file to **`Dash.ini`**, now you should have **`C:\Users\#YourName#\Documents\Rainmeter\Skins\ilius\CryptoCoins\Dash\Dash.ini`**
 4. Open the file with any editor and change:
 	- Change the **`ApiKey`** to the API key you got from your CoinMarketCap account
     - Change the **`CoinSymbol`** to the **Symbol** of the crypto-coin you want to add e.g. **`CoinSymbol=DASH`** (make sure it is in upper case)
@@ -55,7 +55,7 @@ Windows Desklet, Widget, Gadget, Rainmeter Skin that displays the current price 
 
 *NOTE: This Dekslet comes with more than 420+ crypto-coins icons out of the box but in the case when the coin icon is not displayed for your coin that means you need to add the icon:*
 
-- Download an icon for you crypto-coin and move it to **`C:\Users\#YourName#\Documents\Rainmeter\Skins\pbojan\@Resources\icons\`**
+- Download an icon for you crypto-coin and move it to **`C:\Users\#YourName#\Documents\Rainmeter\Skins\ilius\@Resources\icons\`**
 - Make sure the icon is named the same as the **`CoinSymbol`** e.g. **`dash.png`**
 - For best results make sure the icon has the same **aspect ration for width/height** and is at **least 50x50 pixels big**
 
@@ -72,7 +72,7 @@ Windows Desklet, Widget, Gadget, Rainmeter Skin that displays the current price 
 
 ## Bugs/Feedback
 
-If you find any bugs or stability issues please create an issue [here](https://github.com/pbojan/cryptocoins-desklet-windows/issues) or send an email to [p.bojan@live.com](mailto:p.bojan@live.com).
+If you find any bugs or stability issues please create an issue [here](https://github.com/ilius/rainmeter-desklets/issues) or send an email to [p.bojan@live.com](mailto:p.bojan@live.com).
 
 If you have ideas for new features or improvements please send an email to [p.bojan@live.com](mailto:p.bojan@live.com).
 
