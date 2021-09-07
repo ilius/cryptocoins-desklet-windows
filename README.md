@@ -2,8 +2,6 @@
 
 Windows Desklet, Widget, Gadget, Rainmeter Skin that displays the current price of more than **1500+ coins** and their daily percent changes.
 
-![Desklet screenshot](screenshot.png)
-
 ## Usage Help
 
 #### Requirements
